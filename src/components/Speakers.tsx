@@ -33,7 +33,7 @@ const Speakers = () => {
     <div className='w-full h-auto '>
       <h1 className='text-white text-center text-5xl font-bold p-10 '>Speakers</h1>
 
-      <div className='flex justify-center items-center gap-20 '>
+      <div className='flex flex-wrap justify-center items-center gap-20 '>
       <SpeakerCard/><SpeakerCard/><SpeakerCard/>
 
       </div>
